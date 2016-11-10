@@ -1,0 +1,59 @@
+header {
+  height: 70px;
+  margin-bottom: 1vw;
+  background: lightgrey;
+}
+
+.splash {
+    font-size:0;
+    text-align: center;
+}
+
+article {
+  color:white;
+  display: inline-block;
+  width: 33.3%;
+  height: 80vh;
+  position: absolute;
+}
+
+.a {
+  background-color:green;
+  width:45%;
+  transform:translate(-50%, 0%)
+}
+
+.b {
+  background-color:yellowgreen;
+  width:27.5%;
+  left: 0;
+}
+
+.c {
+  background-color:yellow;
+  width:27.5%;
+  right: 0;
+}
+
+footer {
+  position:absolute;
+  bottom:0;
+  margin-top:1vw;
+  height: 70px;
+  width: 100%;
+  background: lightgrey;
+}
+
+@media screen and (max-width: 800px) {
+
+  .a, .b, .c {
+    position:relative;
+    width:100%;
+    height: 80%;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+
+}

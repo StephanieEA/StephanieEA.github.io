@@ -1,0 +1,69 @@
+header {
+  background-color: lightgrey;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.splash {
+  left:0;
+  width: 100vw;
+  height: 80vh;
+  display: inline-block;
+  position: absolute;
+}
+
+.a {
+  background-color:red;
+  height: 39vh;
+  width: 70vw;
+  left: 0;
+
+}
+
+.b {
+  background-color:orange;
+  left:0;
+  height: 39vh;
+  width: 70vw;
+}
+
+.c {
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30vw;
+  height: 78vh;
+}
+
+footer {
+  background-color: lightgrey;
+  height: 70px;
+  width: 100vw;
+  margin-top: 10px;
+  position: absolute;
+  bottom:0;
+}
+
+@media screen and (max-width: 800px) {
+    .a, .b, .c {
+    width: 50vw;
+    }
+}
+@media screen and (max-width: 420px) {
+
+  .a, .b, .c {
+    position: relative;
+    width: 100vw;
+    height:26.6vh;
+  }
+  header {
+    height: 9vh;
+    margin-bottom: 1vh;
+  }
+
+  footer {
+    height: 9vh;
+    margin-top: 1vh;
+  }
+}

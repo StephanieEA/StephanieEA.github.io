@@ -1,0 +1,25 @@
+{
+  "name": "webpack-walkthrough",
+  "version": "1.0.0",
+  "description": "a walkthrough of webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "webpack-walkthrough"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "sea",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "mocha-loader": "^1.0.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
