@@ -58,13 +58,17 @@ p {
 }
 
 .two-col {
-  width: 45%;
   display: inline-block;
   text-align: center;
   padding: 25px;
   margin: auto;
 }
 
+.resize {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+}
 
 
 h3 {
@@ -72,6 +76,7 @@ h3 {
   color: #69B49D;
   text-decoration: none;
   margin-top: 0;
+  display: inline-block;
 }
 
 a:link, a:visited {
